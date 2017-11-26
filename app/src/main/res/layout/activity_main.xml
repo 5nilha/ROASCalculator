@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fabioquint.roascalculator.MainActivity">
+
+    <LinearLayout
+        android:layout_width="384dp"
+        android:layout_height="511dp"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:padding="10dp"
+            android:text="ROAS CALCULATOR"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Return on Ad Spend"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/edtRevenue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:hint="Enter Revenue $"
+            android:inputType="textPersonName"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/edtAdSpend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:hint="Enter Ad Spend $"
+            android:inputType="textPersonName"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/calcBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@android:color/holo_orange_dark"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:padding="18dp"
+            android:text="CALCULATOR ROAS"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/resultTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:padding="10dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/messageTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:padding="10dp"
+            android:text="Return on Ad Spend"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
